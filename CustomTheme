@@ -1,0 +1,61 @@
+/* 祁煜维基自定义主题 - 莫兰迪粉蓝渐变与紫色文字 */
+body {
+    /* 背景：莫兰迪粉与浅蓝渐变 */
+    background: linear-gradient(135deg, #e8d7d7 0%, #d1e3f0 100%);
+    /* 文字：主紫色 */
+    color: #5d4a7a;
+    /* 字体设置 */
+    font-family: 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif;
+    line-height: 1.7;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+/* 内容区域样式 */
+#wiki-body, .markdown-body {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+/* 标题样式 (h1, h2, h3) */
+#wiki-body h1,
+#wiki-body h2,
+#wiki-body h3 {
+    color: #7a5ea8;
+    font-weight: 600;
+    border-bottom: 2px solid #d9c6f0;
+    padding-bottom: 8px;
+    margin-top: 1.5em;
+}
+
+/* 链接样式 */
+#wiki-body a {
+    color: #9b72cf;
+    text-decoration: none;
+    border-bottom: 1px dotted #9b72cf;
+    transition: all 0.2s ease;
+}
+
+#wiki-body a:hover {
+    color: #7a5ea8;
+    border-bottom: 2px solid #7a5ea8;
+}
+
+/* 代码块样式 */
+pre, code {
+    background-color: #f8f5ff !important;
+    color: #5d4a7a !important;
+    border: 1px solid #e6e0ff;
+}
+
+/* 引用块样式 */
+blockquote {
+    border-left: 4px solid #d9c6f0;
+    background-color: #f9f7ff;
+    color: #666;
+}
